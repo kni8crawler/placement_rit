@@ -1,0 +1,1296 @@
+-- Logs begin at Thu 2017-11-30 15:32:05 IST, end at Fri 2017-12-01 17:35:39 IST. --
+Dec 01 08:45:01 ni8crawler CRON[5530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 08:45:01 ni8crawler CRON[5531]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 08:45:01 ni8crawler CRON[5530]: pam_unix(cron:session): session closed for user root
+Dec 01 08:55:01 ni8crawler CRON[5725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 08:55:01 ni8crawler CRON[5726]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 08:55:01 ni8crawler CRON[5725]: pam_unix(cron:session): session closed for user root
+Dec 01 08:55:32 ni8crawler systemd-logind[508]: Suspend key pressed.
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.3108] manager: sleep requested (sleeping: no  enabled: yes)
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.3108] manager: sleeping...
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.3110] manager: NetworkManager state is now ASLEEP
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.3112] device (wlan0): state change: activated -> deactivating (reason 'sleeping') [100 110 37]
+Dec 01 08:55:32 ni8crawler org.gnome.Shell.desktop[738]: [0;1;39mWindow manager warning: Failed to set power save mode for output eDP-1: Permission denied[0m
+Dec 01 08:55:32 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+Dec 01 08:55:32 ni8crawler systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Dec 01 08:55:32 ni8crawler dbus[521]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+Dec 01 08:55:32 ni8crawler systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 08:55:32 ni8crawler nm-dispatcher[5747]: req:1 'connectivity-change': new request (2 scripts)
+Dec 01 08:55:32 ni8crawler nm-dispatcher[5747]: req:1 'connectivity-change': start running ordered scripts...
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.3468] device (wlan0): state change: deactivating -> disconnected (reason 'sleeping') [110 30 37]
+Dec 01 08:55:32 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9a000870 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 08:55:32 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9f74cc50 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 08:55:32 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9f4be850 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 08:55:32 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9ecac850 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 08:55:32 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea3ac48a0 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4112] dhcp4 (wlan0): canceled DHCP transaction, DHCP client pid 5036
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4113] dhcp4 (wlan0): state changed bound -> done
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4115] dhcp6 (wlan0): canceled DHCP transaction
+Dec 01 08:55:32 ni8crawler kernel: wlan0: deauthenticating from c4:12:f5:bf:f6:64 by local choice (Reason: 3=DEAUTH_LEAVING)
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0419 Gs  no app for changed user-theme@gnome-shell-extensions.gcampax.github.com
+Dec 01 08:55:32 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: CTRL-EVENT-DISCONNECTED bssid=c4:12:f5:bf:f6:64 reason=3 locally_generated=1[0m
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0425 Gs  no app for changed EasyScreenCast@iacopodeenosee.gmail.com
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0427 Gs  no app for changed ProxySwitcher@flannaghan.com
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4300] device (wlan0): set-hw-addr: set MAC address to 0E:D6:69:8F:85:AB (scanning)
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0442 Gs  no app for changed dash-to-dock@micxgx.gmail.com
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0444 Gs  no app for changed workspace-indicator@gnome-shell-extensions.gcampax.github.com
+Dec 01 08:55:32 ni8crawler nm-dispatcher[5747]: req:2 'down' [wlan0]: new request (2 scripts)
+Dec 01 08:55:32 ni8crawler nm-dispatcher[5747]: req:2 'down' [wlan0]: start running ordered scripts...
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: [0;1;39m<warn>  [1512098732.4471] sup-iface[0x557b70ab83f0,wlan0]: connection disconnected (reason -3)[0m
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4472] device (wlan0): supplicant interface state: completed -> disconnected
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4473] device (wlan0): supplicant interface state: disconnected -> disabled
+Dec 01 08:55:32 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4477] device (wlan0): state change: disconnected -> unmanaged (reason 'sleeping') [30 10 37]
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0449 Gs  no app for changed places-menu@gnome-shell-extensions.gcampax.github.com
+Dec 01 08:55:32 ni8crawler NetworkManager[562]: <info>  [1512098732.4573] device (wlan0): set-hw-addr: reset MAC address to 40:E2:30:AC:C4:AB (unmanage)
+Dec 01 08:55:32 ni8crawler gnome-software-service.desktop[1239]: 03:25:32:0465 Gs  no app for changed apps-menu@gnome-shell-extensions.gcampax.github.com
+Dec 01 08:55:32 ni8crawler wpa_supplicant[714]: [0;1;39mnl80211: deinit ifname=wlan0 disabled_11b_rates=0[0m
+Dec 01 08:55:34 ni8crawler systemd-logind[508]: Lid closed.
+Dec 01 08:55:34 ni8crawler org.gnome.Shell.desktop[738]: [0;1;39mWindow manager warning: Failed to read EDID of output eDP-1: No such file or directory[0m
+Dec 01 08:55:34 ni8crawler kernel: pci_bus 0000:02: Allocating resources
+Dec 01 08:55:34 ni8crawler kernel: pci_bus 0000:03: Allocating resources
+Dec 01 08:55:34 ni8crawler kernel: pci_bus 0000:04: Allocating resources
+Dec 01 08:55:34 ni8crawler kernel: pci_bus 0000:05: Allocating resources
+Dec 01 08:55:35 ni8crawler systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 08:55:35 ni8crawler systemd[1]: Starting Suspend...
+-- Subject: Unit systemd-suspend.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-suspend.service has begun starting up.
+Dec 01 08:55:35 ni8crawler systemd-sleep[5767]: Suspending system...
+-- Subject: System sleep state suspend entered
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The system has now entered the suspend sleep state.
+Dec 01 16:24:07 ni8crawler kernel: PM: Syncing filesystems ... done.
+Dec 01 16:24:07 ni8crawler kernel: PM: Preparing system for sleep (mem)
+Dec 01 16:24:07 ni8crawler kernel: Freezing user space processes ... (elapsed 0.001 seconds) done.
+Dec 01 16:24:07 ni8crawler kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Dec 01 16:24:07 ni8crawler kernel: PM: Suspending system (mem)
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mSuspending console(s) (use no_console_suspend to debug)[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39msd 4:0:0:0: [sda] Synchronizing SCSI cache[0m
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: event blocked
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39msd 4:0:0:0: [sda] Stopping disk[0m
+Dec 01 16:24:07 ni8crawler kernel: PM: suspend of devices complete after 655.288 msecs
+Dec 01 16:24:07 ni8crawler kernel: PM: late suspend of devices complete after 17.236 msecs
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: interrupt blocked
+Dec 01 16:24:07 ni8crawler kernel: ehci-pci 0000:00:1d.0: System wakeup enabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: pcieport 0000:00:1c.3: System wakeup enabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: ehci-pci 0000:00:1a.0: System wakeup enabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: xhci_hcd 0000:00:14.0: System wakeup enabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: PM: noirq suspend of devices complete after 151.992 msecs
+Dec 01 16:24:07 ni8crawler kernel: ACPI: Preparing to enter system sleep state S3
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: EC stopped
+Dec 01 16:24:07 ni8crawler kernel: PM: Saving platform NVS memory
+Dec 01 16:24:07 ni8crawler kernel: Disabling non-boot CPUs ...
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 1 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 2 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 3 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 16[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 26[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 29[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 4 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 16[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 18[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 26[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 29[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 5 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 16[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 18[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 23[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 26[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 29[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 32[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 6 is now offline
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 1[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 8[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 9[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 12[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 16[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 18[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 23[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 26[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 27[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 28[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 29[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 30[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 32[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 33[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 34[0m
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mBroke affinity for irq 36[0m
+Dec 01 16:24:07 ni8crawler kernel: smpboot: CPU 7 is now offline
+Dec 01 16:24:07 ni8crawler kernel: ACPI: Low-level resume complete
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: EC started
+Dec 01 16:24:07 ni8crawler kernel: PM: Restoring platform NVS memory
+Dec 01 16:24:07 ni8crawler kernel: Suspended for 26910.008 seconds
+Dec 01 16:24:07 ni8crawler kernel: Enabling non-boot CPUs ...
+Dec 01 16:24:07 ni8crawler kernel: x86: Booting SMP configuration:
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 1 APIC 0x2
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu1 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU1 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 2 APIC 0x4
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu2 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU2 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 3 APIC 0x6
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu3 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU3 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 4 APIC 0x1
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu4 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU4 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 5 APIC 0x3
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu5 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU5 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 6 APIC 0x5
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu6 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU6 is up
+Dec 01 16:24:07 ni8crawler kernel: smpboot: Booting Node 0 Processor 7 APIC 0x7
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39m cache: parent cpu7 should not be sleeping[0m
+Dec 01 16:24:07 ni8crawler kernel: CPU7 is up
+Dec 01 16:24:07 ni8crawler kernel: ACPI: Waking up from system sleep state S3
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: interrupt unblocked
+Dec 01 16:24:07 ni8crawler kernel: ehci-pci 0000:00:1a.0: System wakeup disabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: ehci-pci 0000:00:1d.0: System wakeup disabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: PM: noirq resume of devices complete after 38.778 msecs
+Dec 01 16:24:07 ni8crawler kernel: PM: early resume of devices complete after 0.835 msecs
+Dec 01 16:24:07 ni8crawler kernel: ath: phy0: ASPM enabled: 0x42
+Dec 01 16:24:07 ni8crawler kernel: pcieport 0000:00:1c.3: System wakeup disabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: ACPI : EC: event unblocked
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39msd 4:0:0:0: [sda] Starting disk[0m
+Dec 01 16:24:07 ni8crawler kernel: rtc_cmos 00:02: System wakeup disabled by ACPI
+Dec 01 16:24:07 ni8crawler kernel: r8169 0000:05:00.1 eth0: link down
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mxhci_hcd 0000:00:14.0: port 4 resume PLC timeout[0m
+Dec 01 16:24:07 ni8crawler kernel: usb 3-7: reset high-speed USB device number 3 using xhci_hcd
+Dec 01 16:24:07 ni8crawler kernel: ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Dec 01 16:24:07 ni8crawler kernel: ata3.00: configured for UDMA/133
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: reset full-speed USB device number 9 using xhci_hcd
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: device firmware changed
+Dec 01 16:24:07 ni8crawler kernel: PM: resume of devices complete after 707.020 msecs
+Dec 01 16:24:07 ni8crawler kernel: PM: Finishing wakeup.
+Dec 01 16:24:07 ni8crawler kernel: Restarting tasks ... 
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: USB disconnect, device number 9
+Dec 01 16:24:07 ni8crawler kernel: nouveau 0000:01:00.0: DRM: resuming kernel object tree...
+Dec 01 16:24:07 ni8crawler kernel: [0;1;39mdone.[0m
+Dec 01 16:24:07 ni8crawler systemd[1]: Time has been changed
+-- Subject: Time change
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Dec 01 16:24:07 ni8crawler systemd-logind[508]: Lid opened.
+Dec 01 16:24:07 ni8crawler systemd[721]: Time has been changed
+-- Subject: Time change
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Dec 01 16:24:07 ni8crawler systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Dec 01 16:24:07 ni8crawler systemd[956]: Time has been changed
+-- Subject: Time change
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Dec 01 16:24:07 ni8crawler systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:07 ni8crawler systemd[1]: bluetooth.target: Unit not needed anymore. Stopping.
+Dec 01 16:24:07 ni8crawler systemd[1]: Stopped target Bluetooth.
+-- Subject: Unit bluetooth.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit bluetooth.target has finished shutting down.
+Dec 01 16:24:07 ni8crawler systemd-sleep[5767]: System resumed.
+-- Subject: System sleep state suspend left
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The system has now left the suspend sleep state.
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: new full-speed USB device number 10 using xhci_hcd
+Dec 01 16:24:07 ni8crawler kernel: [0;1;31mnouveau 0000:01:00.0: priv: HUB0: 10ecc0 ffffffff (1840822c)[0m
+Dec 01 16:24:07 ni8crawler kernel: nouveau 0000:01:00.0: DRM: resuming client object trees...
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: New USB device found, idVendor=13d3, idProduct=3402
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: Product: Bluetooth USB Host Controller
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: Manufacturer: Atheros Communications
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: SerialNumber: Alaska Day 2006
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: firmware: direct-loading firmware ar3k/AthrBT_0x01020200.dfu
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: firmware: direct-loading firmware ar3k/ramps_0x01020200_40.dfu
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: USB disconnect, device number 10
+Dec 01 16:24:07 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service'[0m
+Dec 01 16:24:07 ni8crawler dbus[521]: [0;1;39m[system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.[0m
+Dec 01 16:24:07 ni8crawler kernel: usb 3-5: new full-speed USB device number 11 using xhci_hcd
+Dec 01 16:24:08 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service'[0m
+Dec 01 16:24:08 ni8crawler dbus[521]: [0;1;39m[system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.[0m
+Dec 01 16:24:09 ni8crawler kernel: ata5: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Dec 01 16:24:09 ni8crawler kernel: ata5.00: configured for UDMA/133
+Dec 01 16:24:09 ni8crawler systemd-sleep[5767]: /dev/sda:
+Dec 01 16:24:09 ni8crawler systemd-sleep[5767]:  setting Advanced Power Management level to 0xfe (254)
+Dec 01 16:24:09 ni8crawler systemd-sleep[5767]:  APM_level        = 254
+Dec 01 16:24:09 ni8crawler systemd[1]: Started Suspend.
+-- Subject: Unit systemd-suspend.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-suspend.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:09 ni8crawler systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Dec 01 16:24:09 ni8crawler systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit sleep.target has finished shutting down.
+Dec 01 16:24:09 ni8crawler systemd[1]: Reached target Suspend.
+-- Subject: Unit suspend.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit suspend.target has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:09 ni8crawler systemd-logind[508]: Operation 'sleep' finished.
+Dec 01 16:24:09 ni8crawler systemd[1]: suspend.target: Unit is bound to inactive unit systemd-suspend.service. Stopping, too.
+Dec 01 16:24:09 ni8crawler systemd[1]: Stopped target Suspend.
+-- Subject: Unit suspend.target has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit suspend.target has finished shutting down.
+Dec 01 16:24:09 ni8crawler systemd[1]: Started Run anacron jobs at resume.
+-- Subject: Unit anacron-resume.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit anacron-resume.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.0955] manager: wake requested (sleeping: yes  enabled: yes)
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.0955] manager: waking up...
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.0956] device (eth0): state change: unavailable -> unmanaged (reason 'sleeping') [20 10 37]
+Dec 01 16:24:09 ni8crawler org.gnome.Shell.desktop[738]: [0;1;39mWindow manager warning: Failed to set power save mode for output eDP-1: Permission denied[0m
+Dec 01 16:24:09 ni8crawler systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:09 ni8crawler anacron[5914]: [0;1;39mAnacron 2.3 started on 2017-12-01[0m
+Dec 01 16:24:09 ni8crawler anacron[5914]: [0;1;39mNormal exit (0 jobs run)[0m
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.1167] device (eth0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.1385] device (wlan0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Dec 01 16:24:09 ni8crawler kernel: r8169 0000:05:00.1 eth0: link down
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.1656] device (wlan0): set-hw-addr: set MAC address to BE:24:FE:55:D0:C6 (scanning)
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.1807] manager: NetworkManager state is now DISCONNECTED
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.2150] sup-iface[0x7f5ed40048d0,wlan0]: supports 4 scan SSIDs
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.2155] device (wlan0): supplicant interface state: starting -> ready
+Dec 01 16:24:09 ni8crawler NetworkManager[562]: <info>  [1512125649.2155] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available') [20 30 42]
+Dec 01 16:24:09 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 16:24:10 ni8crawler NetworkManager[562]: <info>  [1512125650.2705] device (wlan0): supplicant interface state: ready -> inactive
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3247] policy: auto-activating connection 'UsE_GooGle'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3255] device (wlan0): Activation: starting connection 'UsE_GooGle' (0b9d1b5a-beb3-4275-81bb-5c74f60e49de)
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3257] device (wlan0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3258] manager: NetworkManager state is now CONNECTING
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3406] device (wlan0): set-hw-addr: reset MAC address to 40:E2:30:AC:C4:AB (preserve)
+Dec 01 16:24:11 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3560] device (wlan0): supplicant interface state: inactive -> disabled
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3562] device (wlan0): state change: prepare -> config (reason 'none') [40 50 0]
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3563] device (wlan0): Activation: (wifi) access point 'UsE_GooGle' has security, but secrets are required.
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3563] device (wlan0): state change: config -> need-auth (reason 'none') [50 60 0]
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3666] device (wlan0): state change: need-auth -> prepare (reason 'none') [60 40 0]
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3668] device (wlan0): state change: prepare -> config (reason 'none') [40 50 0]
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3669] device (wlan0): Activation: (wifi) connection 'UsE_GooGle' has security, and secrets exist.  No new secrets needed.
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3669] Config: added 'ssid' value 'UsE_GooGle'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3669] Config: added 'scan_ssid' value '1'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3669] Config: added 'key_mgmt' value 'WPA-PSK'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3670] Config: added 'auth_alg' value 'OPEN'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.3670] Config: added 'psk' value '<hidden>'
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.4003] device (wlan0): supplicant interface state: disabled -> inactive
+Dec 01 16:24:11 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: SME: Trying to authenticate with c4:12:f5:bf:f6:64 (SSID='UsE_GooGle' freq=2452 MHz)[0m
+Dec 01 16:24:11 ni8crawler kernel: wlan0: authenticate with c4:12:f5:bf:f6:64
+Dec 01 16:24:11 ni8crawler kernel: wlan0: send auth to c4:12:f5:bf:f6:64 (try 1/3)
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.4199] device (wlan0): supplicant interface state: inactive -> authenticating
+Dec 01 16:24:11 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: Trying to associate with c4:12:f5:bf:f6:64 (SSID='UsE_GooGle' freq=2452 MHz)[0m
+Dec 01 16:24:11 ni8crawler kernel: wlan0: authenticated
+Dec 01 16:24:11 ni8crawler kernel: wlan0: associate with c4:12:f5:bf:f6:64 (try 1/3)
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.5880] device (wlan0): supplicant interface state: authenticating -> associating
+Dec 01 16:24:11 ni8crawler ModemManager[499]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0': not supported by any plugin
+Dec 01 16:24:11 ni8crawler ModemManager[499]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.3/0000:05:00.1': not supported by any plugin
+Dec 01 16:24:11 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: Associated with c4:12:f5:bf:f6:64[0m
+Dec 01 16:24:11 ni8crawler kernel: wlan0: RX AssocResp from c4:12:f5:bf:f6:64 (capab=0x411 status=0 aid=7)
+Dec 01 16:24:11 ni8crawler kernel: wlan0: associated
+Dec 01 16:24:11 ni8crawler kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 01 16:24:11 ni8crawler NetworkManager[562]: <info>  [1512125651.7403] device (wlan0): supplicant interface state: associating -> 4-way handshake
+Dec 01 16:24:12 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: WPA: Key negotiation completed with c4:12:f5:bf:f6:64 [PTK=CCMP GTK=TKIP][0m
+Dec 01 16:24:12 ni8crawler wpa_supplicant[714]: [0;1;39mwlan0: CTRL-EVENT-CONNECTED - Connection to c4:12:f5:bf:f6:64 completed [id=0 id_str=][0m
+Dec 01 16:24:12 ni8crawler NetworkManager[562]: <info>  [1512125652.0211] device (wlan0): supplicant interface state: 4-way handshake -> completed
+Dec 01 16:24:12 ni8crawler NetworkManager[562]: <info>  [1512125652.0211] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'UsE_GooGle'.
+Dec 01 16:24:12 ni8crawler NetworkManager[562]: <info>  [1512125652.0212] device (wlan0): state change: config -> ip-config (reason 'none') [50 70 0]
+Dec 01 16:24:12 ni8crawler NetworkManager[562]: <info>  [1512125652.0215] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Dec 01 16:24:12 ni8crawler NetworkManager[562]: <info>  [1512125652.0229] dhcp4 (wlan0): dhclient started with pid 5926
+Dec 01 16:24:12 ni8crawler dhclient[5926]: DHCPREQUEST of 192.168.1.38 on wlan0 to 255.255.255.255 port 67
+Dec 01 16:24:12 ni8crawler kernel: nouveau 0000:01:00.0: DRM: evicting buffers...
+Dec 01 16:24:12 ni8crawler kernel: nouveau 0000:01:00.0: DRM: waiting for kernel channels to go idle...
+Dec 01 16:24:12 ni8crawler kernel: nouveau 0000:01:00.0: DRM: suspending client object trees...
+Dec 01 16:24:12 ni8crawler kernel: nouveau 0000:01:00.0: DRM: suspending kernel object tree...
+Dec 01 16:24:13 ni8crawler kernel: [0;1;31musb 3-5: device descriptor read/64, error -110[0m
+Dec 01 16:24:13 ni8crawler dhclient[5926]: DHCPACK of 192.168.1.38 from 192.168.1.1
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   address 192.168.1.38
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   gateway 192.168.1.1
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   server identifier 192.168.1.1
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   lease time 43200
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   hostname 'ni8crawler'
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5397] dhcp4 (wlan0):   nameserver '192.168.1.1'
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5398] dhcp4 (wlan0): state changed unknown -> bound
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5418] device (wlan0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5422] device (wlan0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5424] device (wlan0): state change: secondaries -> activated (reason 'none') [90 100 0]
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.5425] manager: NetworkManager state is now CONNECTED_LOCAL
+Dec 01 16:24:13 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+Dec 01 16:24:13 ni8crawler systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Dec 01 16:24:13 ni8crawler dbus[521]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+Dec 01 16:24:13 ni8crawler systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:13 ni8crawler nm-dispatcher[5937]: req:1 'connectivity-change': new request (2 scripts)
+Dec 01 16:24:13 ni8crawler nm-dispatcher[5937]: req:1 'connectivity-change': start running ordered scripts...
+Dec 01 16:24:13 ni8crawler dhclient[5926]: bound to 192.168.1.38 -- renewal in 18235 seconds.
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.6191] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.6192] policy: set 'UsE_GooGle' (wlan0) as default for IPv4 routing and DNS
+Dec 01 16:24:13 ni8crawler NetworkManager[562]: <info>  [1512125653.6195] device (wlan0): Activation: successful, device activated.
+Dec 01 16:24:13 ni8crawler nm-dispatcher[5937]: req:2 'up' [wlan0]: new request (2 scripts)
+Dec 01 16:24:13 ni8crawler nm-dispatcher[5937]: req:2 'up' [wlan0]: start running ordered scripts...
+Dec 01 16:24:15 ni8crawler NetworkManager[562]: <info>  [1512125655.3022] dhcp6 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Dec 01 16:24:15 ni8crawler NetworkManager[562]: [0;1;39m<warn>  [1512125655.3022] dhcp6 (wlan0): hostname is not a FQDN, it will be ignored[0m
+Dec 01 16:24:15 ni8crawler NetworkManager[562]: <info>  [1512125655.3036] dhcp6 (wlan0): dhclient started with pid 5960
+Dec 01 16:24:15 ni8crawler NetworkManager[562]: <info>  [1512125655.3042] policy: set 'UsE_GooGle' (wlan0) as default for IPv6 routing and DNS
+Dec 01 16:24:15 ni8crawler gnome-shell[1099]: [0;1;39mAttempting to add actor of type 'StScrollView' to a container of type 'StBoxLayout', but the actor has already a parent of type 'StBoxLayout'.[0m
+Dec 01 16:24:15 ni8crawler gnome-software-service.desktop[1239]: 10:54:15:0470 Gs  no app for changed apps-menu@gnome-shell-extensions.gcampax.github.com
+Dec 01 16:24:15 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+Dec 01 16:24:15 ni8crawler systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Dec 01 16:24:15 ni8crawler gnome-software-service.desktop[1239]: 10:54:15:0484 Gs  no app for changed places-menu@gnome-shell-extensions.gcampax.github.com
+Dec 01 16:24:15 ni8crawler gnome-software-service.desktop[1239]: 10:54:15:0489 Gs  no app for changed workspace-indicator@gnome-shell-extensions.gcampax.github.com
+Dec 01 16:24:15 ni8crawler gnome-software-service.desktop[1239]: 10:54:15:0501 Gs  no app for changed dash-to-dock@micxgx.gmail.com
+Dec 01 16:24:15 ni8crawler gnome-software-service.desktop[1239]: 10:54:15:0505 Gs  no app for changed ProxySwitcher@flannaghan.com
+Dec 01 16:24:15 ni8crawler dbus[521]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+Dec 01 16:24:15 ni8crawler systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:16 ni8crawler dhclient[5960]: XMT: Info-Request on wlan0, interval 940ms.
+Dec 01 16:24:17 ni8crawler dhclient[5960]: XMT: Info-Request on wlan0, interval 1890ms.
+Dec 01 16:24:18 ni8crawler dhclient[5960]: RCV: Reply message on wlan0 from fe80::1.
+Dec 01 16:24:18 ni8crawler NetworkManager[562]: <info>  [1512125658.1979] dhcp6 (wlan0):   nameserver 'fe80::1'
+Dec 01 16:24:18 ni8crawler NetworkManager[562]: <info>  [1512125658.1979] dhcp6 (wlan0): state changed unknown -> bound
+Dec 01 16:24:18 ni8crawler NetworkManager[562]: <info>  [1512125658.1995] dhcp6 (wlan0): client pid 5960 exited with status 0
+Dec 01 16:24:18 ni8crawler NetworkManager[562]: <info>  [1512125658.1995] dhcp6 (wlan0): state changed bound -> done
+Dec 01 16:24:18 ni8crawler nm-dispatcher[5937]: req:3 'dhcp6-change' [wlan0]: new request (2 scripts)
+Dec 01 16:24:18 ni8crawler gnome-software-service.desktop[1239]: 10:54:18:0297 Gs  no app for changed EasyScreenCast@iacopodeenosee.gmail.com
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mJS LOG: loading user theme: /usr/share//themes/Kali-X/gnome-shell/gnome-shell.css[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9a000870 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9f74cc50 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9f4be850 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9ecac850 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea3ac48a0 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mclutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mg_object_set: assertion 'G_IS_OBJECT (object)' failed[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de992fa6c0 ShellGenericContainer "dash"] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea02cab60 StWidget.app-well-app-running-dot:first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9c6ed1e0 ShellGenericContainer:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9c6ed1e0 ShellGenericContainer:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea1be56b0 StBin:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9c6ed1e0 ShellGenericContainer:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea1be56b0 StBin:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea13b3690 StIcon:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea1b7e510 StDrawingArea:last-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea02cab60 StWidget.app-well-app-running-dot:first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea35f02b0 StBin.overview-icon] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9c6ed1e0 ShellGenericContainer:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9b9ff850 StBoxLayout] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55de9d87b210 Gjs_DashItemContainer.dash-item-container] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea363ef30 StButton.app-well-app focused running1:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea26b5f00 StWidget:last-child first-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-shell[1099]: [0;1;39mst_widget_get_theme_node called on the widget [0x55dea1b7e510 StDrawingArea:last-child] which is not in the stage.[0m
+Dec 01 16:24:18 ni8crawler gnome-software-service.desktop[1239]: 10:54:18:0420 Gs  no app for changed user-theme@gnome-shell-extensions.gcampax.github.com
+Dec 01 16:24:23 ni8crawler systemd[1]: Reloading.
+Dec 01 16:24:28 ni8crawler kernel: [0;1;31musb 3-5: device descriptor read/64, error -110[0m
+Dec 01 16:24:28 ni8crawler kernel: usb 3-5: new full-speed USB device number 12 using xhci_hcd
+Dec 01 16:24:34 ni8crawler kernel: [0;1;31musb 3-5: device descriptor read/64, error -110[0m
+Dec 01 16:24:35 ni8crawler systemd[1]: Reloading.
+Dec 01 16:24:35 ni8crawler nm-dispatcher[5937]: req:3 'dhcp6-change' [wlan0]: start running ordered scripts...
+Dec 01 16:24:49 ni8crawler kernel: [0;1;31musb 3-5: device descriptor read/64, error -110[0m
+Dec 01 16:24:49 ni8crawler kernel: usb 3-5: new full-speed USB device number 13 using xhci_hcd
+Dec 01 16:24:53 ni8crawler plugin-containe[6093]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 16:24:54 ni8crawler kernel: [0;1;39mxhci_hcd 0000:00:14.0: Timeout while waiting for setup device command[0m
+Dec 01 16:24:55 ni8crawler kernel: [0;1;39musb 3-5: Device not responding to setup address.[0m
+Dec 01 16:24:55 ni8crawler kernel: [0;1;31musb 3-5: device not accepting address 13, error -71[0m
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: new full-speed USB device number 14 using xhci_hcd
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: New USB device found, idVendor=13d3, idProduct=3402
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: Product: Bluetooth USB Host Controller
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: Manufacturer: Atheros Communications
+Dec 01 16:24:55 ni8crawler kernel: usb 3-5: SerialNumber: Alaska Day 2006
+Dec 01 16:24:55 ni8crawler systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Dec 01 16:24:55 ni8crawler systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:55 ni8crawler systemd[1]: Reached target Bluetooth.
+-- Subject: Unit bluetooth.target has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit bluetooth.target has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 16:24:56 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service'[0m
+Dec 01 16:24:56 ni8crawler dbus[521]: [0;1;39m[system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.[0m
+Dec 01 16:24:57 ni8crawler dbus[521]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service'[0m
+Dec 01 16:24:57 ni8crawler dbus[521]: [0;1;39m[system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.[0m
+Dec 01 16:25:01 ni8crawler CRON[6158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 16:25:01 ni8crawler CRON[6159]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 16:25:01 ni8crawler CRON[6158]: pam_unix(cron:session): session closed for user root
+Dec 01 16:29:32 ni8crawler smartd[518]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 166 to 214
+Dec 01 16:32:15 ni8crawler smartd[518]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 214 to 206
+Dec 01 16:35:01 ni8crawler CRON[6236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 16:35:01 ni8crawler CRON[6237]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 16:35:01 ni8crawler CRON[6236]: pam_unix(cron:session): session closed for user root
+Dec 01 16:38:01 ni8crawler firefox-esr.desktop[1415]: 1512126481490        addons.productaddons        ERROR        Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+Dec 01 16:38:03 ni8crawler firefox-esr.desktop[1415]: 1512126483954        addons.update-checker        WARN        Update manifest for loop@mozilla.org did not contain an updates property
+Dec 01 16:38:04 ni8crawler firefox-esr.desktop[1415]: 1512126484363        addons.update-checker        WARN        Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Dec 01 16:39:01 ni8crawler CRON[6253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 16:39:01 ni8crawler CRON[6254]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 01 16:39:01 ni8crawler CRON[6253]: pam_unix(cron:session): session closed for user root
+Dec 01 16:45:01 ni8crawler CRON[6283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 16:45:01 ni8crawler CRON[6284]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 16:45:01 ni8crawler CRON[6283]: pam_unix(cron:session): session closed for user root
+Dec 01 16:55:01 ni8crawler CRON[6373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 16:55:01 ni8crawler CRON[6374]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 16:55:01 ni8crawler CRON[6373]: pam_unix(cron:session): session closed for user root
+Dec 01 16:59:35 ni8crawler firefox-esr.desktop[1415]: hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=45.8.0&pver=2.2
+Dec 01 16:59:35 ni8crawler firefox-esr.desktop[1415]: hashcompleter: notifying failure
+Dec 01 17:00:48 ni8crawler plugin-containe[6402]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:02:15 ni8crawler smartd[518]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 206 to 153
+Dec 01 17:05:01 ni8crawler CRON[6467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:05:01 ni8crawler CRON[6468]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 17:05:01 ni8crawler CRON[6467]: pam_unix(cron:session): session closed for user root
+Dec 01 17:09:01 ni8crawler CRON[6488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:09:01 ni8crawler CRON[6489]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 01 17:09:01 ni8crawler CRON[6488]: pam_unix(cron:session): session closed for user root
+Dec 01 17:11:35 ni8crawler plugin-containe[6493]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:14:07 ni8crawler plugin-containe[6544]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:14:22 ni8crawler firefox-esr.desktop[1415]: [GFX1-]: GLContext is disabled due to a previous crash.
+Dec 01 17:15:01 ni8crawler CRON[6592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:15:01 ni8crawler CRON[6593]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 17:15:01 ni8crawler CRON[6592]: pam_unix(cron:session): session closed for user root
+Dec 01 17:15:41 ni8crawler sudo[6597]: [0;1;39m    root : TTY=pts/0 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/usr/bin/apt install nginx[0m
+Dec 01 17:15:41 ni8crawler sudo[6597]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:15:41 ni8crawler sudo[6597]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:15:56 ni8crawler sudo[6609]: [0;1;39m    root : TTY=pts/0 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/bin/rm /var/lib/dpkg/lock[0m
+Dec 01 17:15:56 ni8crawler sudo[6609]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:15:56 ni8crawler sudo[6609]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:15:58 ni8crawler sudo[6611]: [0;1;39m    root : TTY=pts/0 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/usr/bin/apt install nginx[0m
+Dec 01 17:15:58 ni8crawler sudo[6611]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:15:58 ni8crawler sudo[6611]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:16:14 ni8crawler sudo[6636]: [0;1;39m    root : TTY=pts/0 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/bin/rm /var/cache/apt/archives/lock[0m
+Dec 01 17:16:14 ni8crawler sudo[6636]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:16:14 ni8crawler sudo[6636]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:16:15 ni8crawler sudo[6638]: [0;1;39m    root : TTY=pts/0 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/usr/bin/apt install nginx[0m
+Dec 01 17:16:15 ni8crawler sudo[6638]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:16:32 ni8crawler systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit apache2.service has begun shutting down.
+Dec 01 17:16:33 ni8crawler apachectl[6680]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Dec 01 17:16:33 ni8crawler systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit apache2.service has finished shutting down.
+Dec 01 17:16:40 ni8crawler plugin-containe[6688]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:17:01 ni8crawler CRON[6742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:17:01 ni8crawler CRON[6743]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 01 17:17:01 ni8crawler CRON[6742]: pam_unix(cron:session): session closed for user root
+Dec 01 17:17:04 ni8crawler sudo[6745]: [0;1;39m    root : TTY=pts/2 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/usr/sbin/service apache2 stop[0m
+Dec 01 17:17:04 ni8crawler sudo[6745]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:17:04 ni8crawler sudo[6745]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:18:08 ni8crawler plugin-containe[6783]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:18:58 ni8crawler systemd[1]: Reloading.
+Dec 01 17:18:58 ni8crawler systemd[1]: Reloading.
+Dec 01 17:18:58 ni8crawler systemd[1]: Reloading.
+Dec 01 17:18:59 ni8crawler systemd[1]: Reloading.
+Dec 01 17:19:12 ni8crawler sudo[6638]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0694 As  failed to rescan: Failed to parse /usr/share/applications/kali-0trace.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0695 As  failed to rescan: Failed to parse /usr/share/applications/kali-acccheck.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0696 As  failed to rescan: Failed to parse /usr/share/applications/kali-affcat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0697 As  failed to rescan: Failed to parse /usr/share/applications/kali-aircrack-ng.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0698 As  failed to rescan: Failed to parse /usr/share/applications/kali-apache-users.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0699 As  failed to rescan: Failed to parse /usr/share/applications/kali-apktool.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0699 As  failed to rescan: Failed to parse /usr/share/applications/kali-armitage.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0700 As  failed to rescan: Failed to parse /usr/share/applications/kali-asleap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0701 As  failed to rescan: Failed to parse /usr/share/applications/kali-automater.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0701 As  failed to rescan: Failed to parse /usr/share/applications/kali-autopsy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0702 As  failed to rescan: Failed to parse /usr/share/applications/kali-backdoorfactory.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0703 As  failed to rescan: Failed to parse /usr/share/applications/kali-bbqsql.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0703 As  failed to rescan: Failed to parse /usr/share/applications/kali-bdfproxy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0704 As  failed to rescan: Failed to parse /usr/share/applications/kali-bed.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0705 As  failed to rescan: Failed to parse /usr/share/applications/kali-beef.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0705 As  failed to rescan: Failed to parse /usr/share/applications/kali-beef-start.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0706 As  failed to rescan: Failed to parse /usr/share/applications/kali-beef-stop.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0707 As  failed to rescan: Failed to parse /usr/share/applications/kali-binwalk.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0707 As  failed to rescan: Failed to parse /usr/share/applications/kali-blindelephant.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0708 As  failed to rescan: Failed to parse /usr/share/applications/kali-bluelog.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0708 As  failed to rescan: Failed to parse /usr/share/applications/kali-blueranger.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0709 As  failed to rescan: Failed to parse /usr/share/applications/kali-bluesnarfer.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0710 As  failed to rescan: Failed to parse /usr/share/applications/kali-braa.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0710 As  failed to rescan: Failed to parse /usr/share/applications/kali-btscanner.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0711 As  failed to rescan: Failed to parse /usr/share/applications/kali-bulk-extractor.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0712 As  failed to rescan: Failed to parse /usr/share/applications/kali-bully.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0712 As  failed to rescan: Failed to parse /usr/share/applications/kali-burpsuite.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0713 As  failed to rescan: Failed to parse /usr/share/applications/kali-cadaver.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0714 As  failed to rescan: Failed to parse /usr/share/applications/kali-casefile.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0714 As  failed to rescan: Failed to parse /usr/share/applications/kali-cdpsnarf.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0715 As  failed to rescan: Failed to parse /usr/share/applications/kali-cewl.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0716 As  failed to rescan: Failed to parse /usr/share/applications/chirp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0716 As  failed to rescan: Failed to parse /usr/share/applications/kali-chkrootkit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0717 As  failed to rescan: Failed to parse /usr/share/applications/kali-chntpw.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0717 As  failed to rescan: Failed to parse /usr/share/applications/kali-cisco-auditing-tool.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0718 As  failed to rescan: Failed to parse /usr/share/applications/kali-cisco-global-exploiter.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0719 As  failed to rescan: Failed to parse /usr/share/applications/kali-cisco-ocs.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0719 As  failed to rescan: Failed to parse /usr/share/applications/kali-cisco-torch.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0720 As  failed to rescan: Failed to parse /usr/share/applications/kali-clang.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0721 As  failed to rescan: Failed to parse /usr/share/applications/kali-clang-plusplus.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0721 As  failed to rescan: Failed to parse /usr/share/applications/kali-clusterd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0722 As  failed to rescan: Failed to parse /usr/share/applications/kali-cmospwd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0723 As  failed to rescan: Failed to parse /usr/share/applications/kali-commix.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0723 As  failed to rescan: Failed to parse /usr/share/applications/kali-merge-router-config.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0724 As  failed to rescan: Failed to parse /usr/share/applications/kali-copy-router-config.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0725 As  failed to rescan: Failed to parse /usr/share/applications/kali-cowpatty.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0725 As  failed to rescan: Failed to parse /usr/share/applications/kali-pwdump.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0726 As  failed to rescan: Failed to parse /usr/share/applications/kali-cachedump.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0726 As  failed to rescan: Failed to parse /usr/share/applications/kali-lsadump.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0727 As  failed to rescan: Failed to parse /usr/share/applications/kali-crunch.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0728 As  failed to rescan: Failed to parse /usr/share/applications/kali-cutycapt.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0728 As  failed to rescan: Failed to parse /usr/share/applications/kali-cymothoa.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0729 As  failed to rescan: Failed to parse /usr/share/applications/kali-darkstat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0730 As  failed to rescan: Failed to parse /usr/share/applications/kali-davtest.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0730 As  failed to rescan: Failed to parse /usr/share/applications/kali-dbd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0731 As  failed to rescan: Failed to parse /usr/share/applications/kali-dc3dd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0732 As  failed to rescan: Failed to parse /usr/share/applications/kali-dcfldd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0732 As  failed to rescan: Failed to parse /usr/share/applications/kali-ddrescue.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0733 As  failed to rescan: Failed to parse /usr/share/applications/kali-deblaze.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0733 As  failed to rescan: Failed to parse /usr/share/applications/kali-dex2jar.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0734 As  failed to rescan: Failed to parse /usr/share/applications/kali-dhcpig.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0735 As  failed to rescan: Failed to parse /usr/share/applications/kali-dirb.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0735 As  failed to rescan: Failed to parse /usr/share/applications/kali-dirbuster.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0736 As  failed to rescan: Failed to parse /usr/share/applications/kali-dmitry.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0737 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnmap-server.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0737 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnmap-client.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0738 As  failed to rescan: Failed to parse /usr/share/applications/kali-dns2tcpc.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0738 As  failed to rescan: Failed to parse /usr/share/applications/kali-dns2tcpd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0739 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnschef.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0740 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnsenum.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0740 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnsmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0741 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnsrecon.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0742 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnstracer.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0742 As  failed to rescan: Failed to parse /usr/share/applications/kali-dnswalk.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0743 As  failed to rescan: Failed to parse /usr/share/applications/kali-dradis.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0744 As  failed to rescan: Failed to parse /usr/share/applications/kali-dradis-start.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0744 As  failed to rescan: Failed to parse /usr/share/applications/kali-dradis-stop.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0745 As  failed to rescan: Failed to parse /usr/share/applications/driftnet.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0745 As  failed to rescan: Failed to parse /usr/share/applications/kali-dsniff.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0746 As  failed to rescan: Failed to parse /usr/share/applications/kali-eapmd5pass.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0747 As  failed to rescan: Failed to parse /usr/share/applications/kali-edb-debugger.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0747 As  failed to rescan: Failed to parse /usr/share/applications/kali-enum4linux.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0748 As  failed to rescan: Failed to parse /usr/share/applications/kali-enumiax.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0748 As  failed to rescan: Failed to parse /usr/share/applications/kali-ettercap-graphical.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0749 As  failed to rescan: Failed to parse /usr/share/applications/kali-ewfacquire.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0750 As  failed to rescan: Failed to parse /usr/share/applications/kali-exe2hex.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0750 As  failed to rescan: Failed to parse /usr/share/applications/kali-searchsploit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0751 As  failed to rescan: Failed to parse /usr/share/applications/kali-extundelete.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0752 As  failed to rescan: Failed to parse /usr/share/applications/kali-fcrackzip.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0752 As  failed to rescan: Failed to parse /usr/share/applications/kali-fern-wifi-cracker.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0753 As  failed to rescan: Failed to parse /usr/share/applications/kali-fierce.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0753 As  failed to rescan: Failed to parse /usr/share/applications/kali-fiked.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0754 As  failed to rescan: Failed to parse /usr/share/applications/kali-fimap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0755 As  failed to rescan: Failed to parse /usr/share/applications/kali-findmyhash.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0755 As  failed to rescan: Failed to parse /usr/share/applications/kali-flasm.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0756 As  failed to rescan: Failed to parse /usr/share/applications/kali-foremost.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0757 As  failed to rescan: Failed to parse /usr/share/applications/kali-fping.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0757 As  failed to rescan: Failed to parse /usr/share/applications/kali-fragroute.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0758 As  failed to rescan: Failed to parse /usr/share/applications/kali-fragrouter.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0758 As  failed to rescan: Failed to parse /usr/share/applications/kali-ftester.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0759 As  failed to rescan: Failed to parse /usr/share/applications/kali-galleta.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0760 As  failed to rescan: Failed to parse /usr/share/applications/kali-ghost-phisher.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0760 As  failed to rescan: Failed to parse /usr/share/applications/kali-giskismet.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0761 As  failed to rescan: Failed to parse /usr/share/applications/kali-golismero.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0761 As  failed to rescan: Failed to parse /usr/share/applications/kali-grabber.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0762 As  failed to rescan: Failed to parse /usr/share/applications/kali-guymager.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0763 As  failed to rescan: Failed to parse /usr/share/applications/kali-hackrf_info.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0763 As  failed to rescan: Failed to parse /usr/share/applications/kali-hamster-sidejack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0764 As  failed to rescan: Failed to parse /usr/share/applications/kali-hash-identifier.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0764 As  failed to rescan: Failed to parse /usr/share/applications/kali-hashcat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0765 As  failed to rescan: Failed to parse /usr/share/applications/kali-hashdeep.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0766 As  failed to rescan: Failed to parse /usr/share/applications/kali-hashid.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0766 As  failed to rescan: Failed to parse /usr/share/applications/kali-hexinject.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0767 As  failed to rescan: Failed to parse /usr/share/applications/kali-hexorbase.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0767 As  failed to rescan: Failed to parse /usr/share/applications/kali-hping3.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0768 As  failed to rescan: Failed to parse /usr/share/applications/kali-httrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0768 As  failed to rescan: Failed to parse /usr/share/applications/kali-hydra.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0769 As  failed to rescan: Failed to parse /usr/share/applications/hydra-gtk.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0769 As  failed to rescan: Failed to parse /usr/share/applications/kali-iaxflood.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0770 As  failed to rescan: Failed to parse /usr/share/applications/kali-ike-scan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0770 As  failed to rescan: Failed to parse /usr/share/applications/kali-intersect.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0771 As  failed to rescan: Failed to parse /usr/share/applications/kali-intrace.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0772 As  failed to rescan: Failed to parse /usr/share/applications/kali-inviteflood.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0772 As  failed to rescan: Failed to parse /usr/share/applications/kali-iodine.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0773 As  failed to rescan: Failed to parse /usr/share/applications/kali-iputils-arping.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0773 As  failed to rescan: Failed to parse /usr/share/applications/kali-irpass-ass.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0774 As  failed to rescan: Failed to parse /usr/share/applications/kali-irpass-cdp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0774 As  failed to rescan: Failed to parse /usr/share/applications/kali-jad.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0775 As  failed to rescan: Failed to parse /usr/share/applications/kali-javasnoop.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0775 As  failed to rescan: Failed to parse /usr/share/applications/kali-jboss-autopwn-linux.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0776 As  failed to rescan: Failed to parse /usr/share/applications/kali-jboss-autopwn-windows.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0777 As  failed to rescan: Failed to parse /usr/share/applications/kali-john.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0777 As  failed to rescan: Failed to parse /usr/share/applications/kali-johnny.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0778 As  failed to rescan: Failed to parse /usr/share/applications/kali-joomscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0778 As  failed to rescan: Failed to parse /usr/share/applications/kali-jsql.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0779 As  failed to rescan: Failed to parse /usr/share/applications/kali-keepnote.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0779 As  failed to rescan: Failed to parse /usr/share/applications/kali-keimpx.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0780 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbfind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0780 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbstumbler.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0781 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbdump.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0782 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbgoodfind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0782 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbreplay.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0783 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbassocflood.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0783 As  failed to rescan: Failed to parse /usr/share/applications/kali-zbdsniff.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0784 As  failed to rescan: Failed to parse /usr/share/applications/kismet.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0785 As  failed to rescan: Failed to parse /usr/share/applications/kali-laudanum.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0785 As  failed to rescan: Failed to parse /usr/share/applications/kali-lbd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0786 As  failed to rescan: Failed to parse /usr/share/applications/kali-mifare-classic-format.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0786 As  failed to rescan: Failed to parse /usr/share/applications/kali-nfc-list.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0787 As  failed to rescan: Failed to parse /usr/share/applications/kali-nfc-mfclassic.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0788 As  failed to rescan: Failed to parse /usr/share/applications/kali-lynis.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0789 As  failed to rescan: Failed to parse /usr/share/applications/kali-macchanger.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0789 As  failed to rescan: Failed to parse /usr/share/applications/kali-magicrescue.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0790 As  failed to rescan: Failed to parse /usr/share/applications/kali-magictree.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0791 As  failed to rescan: Failed to parse /usr/share/applications/kali-maltegoce.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0791 As  failed to rescan: Failed to parse /usr/share/applications/kali-masscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0792 As  failed to rescan: Failed to parse /usr/share/applications/kali-mdb-sql.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0792 As  failed to rescan: Failed to parse /usr/share/applications/kali-mdk3.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0793 As  failed to rescan: Failed to parse /usr/share/applications/kali-medusa.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0794 As  failed to rescan: Failed to parse /usr/share/applications/kali-msfconsole.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0794 As  failed to rescan: Failed to parse /usr/share/applications/kali-nasmshell.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0795 As  failed to rescan: Failed to parse /usr/share/applications/kali-mfcuk.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0795 As  failed to rescan: Failed to parse /usr/share/applications/kali-mfoc.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0796 As  failed to rescan: Failed to parse /usr/share/applications/kali-mfterm.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0796 As  failed to rescan: Failed to parse /usr/share/applications/kali-mimikatz.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0797 As  failed to rescan: Failed to parse /usr/share/applications/kali-miranda.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0798 As  failed to rescan: Failed to parse /usr/share/applications/kali-miredo.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0798 As  failed to rescan: Failed to parse /usr/share/applications/kali-missidentify.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0799 As  failed to rescan: Failed to parse /usr/share/applications/kali-mitmproxy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0799 As  failed to rescan: Failed to parse /usr/share/applications/kali-msfpc.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0800 As  failed to rescan: Failed to parse /usr/share/applications/kali-nbtscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0800 As  failed to rescan: Failed to parse /usr/share/applications/kali-ncrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0801 As  failed to rescan: Failed to parse /usr/share/applications/kali-netdiscover.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0801 As  failed to rescan: Failed to parse /usr/share/applications/kali-netmask.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0802 As  failed to rescan: Failed to parse /usr/share/applications/kali-netsniff.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0802 As  failed to rescan: Failed to parse /usr/share/applications/kali-nfspy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0803 As  failed to rescan: Failed to parse /usr/share/applications/kali-nikto.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0804 As  failed to rescan: Failed to parse /usr/share/applications/kali-nishang.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0804 As  failed to rescan: Failed to parse /usr/share/applications/kali-nmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0805 As  failed to rescan: Failed to parse /usr/share/applications/kali-ncat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0805 As  failed to rescan: Failed to parse /usr/share/applications/kali-ohrwurm.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0806 As  failed to rescan: Failed to parse /usr/share/applications/kali-ollydbg.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0806 As  failed to rescan: Failed to parse /usr/share/applications/kali-onesixtyone.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0807 As  failed to rescan: Failed to parse /usr/share/applications/kali-ophcrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0807 As  failed to rescan: Failed to parse /usr/share/applications/kali-ophcrack-cli.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0808 As  failed to rescan: Failed to parse /usr/share/applications/kali-oscanner.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0808 As  failed to rescan: Failed to parse /usr/share/applications/kali-p0f.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0809 As  failed to rescan: Failed to parse /usr/share/applications/kali-statsgen.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0809 As  failed to rescan: Failed to parse /usr/share/applications/kali-policygen.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0810 As  failed to rescan: Failed to parse /usr/share/applications/kali-maskgen.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0810 As  failed to rescan: Failed to parse /usr/share/applications/kali-padbuster.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0811 As  failed to rescan: Failed to parse /usr/share/applications/kali-paros.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0811 As  failed to rescan: Failed to parse /usr/share/applications/kali-pasco.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0812 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-wmic.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0812 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-smbget.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0813 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-curl.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0813 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-smbclient.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0814 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-rpcclient.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0814 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-sqsh.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0815 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-winexe.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0815 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-wmis.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0816 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-openchangeclient.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0816 As  failed to rescan: Failed to parse /usr/share/applications/kali-pth-net.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0817 As  failed to rescan: Failed to parse /usr/share/applications/kali-patator.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0817 As  failed to rescan: Failed to parse /usr/share/applications/kali-pdf-parser.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0818 As  failed to rescan: Failed to parse /usr/share/applications/kali-pdfid.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0818 As  failed to rescan: Failed to parse /usr/share/applications/kali-pdgmail.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0819 As  failed to rescan: Failed to parse /usr/share/applications/kali-peepdf.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0819 As  failed to rescan: Failed to parse /usr/share/applications/kali-pev.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0820 As  failed to rescan: Failed to parse /usr/share/applications/kali-pipal.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0820 As  failed to rescan: Failed to parse /usr/share/applications/kali-pixiewps.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0821 As  failed to rescan: Failed to parse /usr/share/applications/kali-plecost.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0821 As  failed to rescan: Failed to parse /usr/share/applications/kali-powerfuzzer.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0822 As  failed to rescan: Failed to parse /usr/share/applications/kali-powersploit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0822 As  failed to rescan: Failed to parse /usr/share/applications/kali-protos-sip.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0823 As  failed to rescan: Failed to parse /usr/share/applications/kali-proxychains.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0823 As  failed to rescan: Failed to parse /usr/share/applications/kali-proxystrike.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0824 As  failed to rescan: Failed to parse /usr/share/applications/kali-proxytunnel.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0824 As  failed to rescan: Failed to parse /usr/share/applications/kali-ptunnel.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0825 As  failed to rescan: Failed to parse /usr/share/applications/kali-pwnat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0825 As  failed to rescan: Failed to parse /usr/share/applications/kali-pyrit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0826 As  failed to rescan: Failed to parse /usr/share/applications/kali-faraday.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0826 As  failed to rescan: Failed to parse /usr/share/applications/kali-radare2.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0827 As  failed to rescan: Failed to parse /usr/share/applications/kali-rainbowcrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0827 As  failed to rescan: Failed to parse /usr/share/applications/kali-rcracki-mt.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0828 As  failed to rescan: Failed to parse /usr/share/applications/kali-readpst.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0828 As  failed to rescan: Failed to parse /usr/share/applications/kali-reaver.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0829 As  failed to rescan: Failed to parse /usr/share/applications/kali-rebind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0829 As  failed to rescan: Failed to parse /usr/share/applications/kali-recon-ng.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0830 As  failed to rescan: Failed to parse /usr/share/applications/kali-recordmydesktop.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0830 As  failed to rescan: Failed to parse /usr/share/applications/kali-recoverjpeg.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0831 As  failed to rescan: Failed to parse /usr/share/applications/kali-redfang.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0832 As  failed to rescan: Failed to parse /usr/share/applications/kali-reglookup.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0832 As  failed to rescan: Failed to parse /usr/share/applications/kali-regripper.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0833 As  failed to rescan: Failed to parse /usr/share/applications/kali-responder.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0833 As  failed to rescan: Failed to parse /usr/share/applications/kali-rifiuti.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0834 As  failed to rescan: Failed to parse /usr/share/applications/kali-rifiuti2.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0834 As  failed to rescan: Failed to parse /usr/share/applications/kali-rsmangler.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0835 As  failed to rescan: Failed to parse /usr/share/applications/kali-rtpbreak.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0835 As  failed to rescan: Failed to parse /usr/share/applications/kali-rtpflood.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0836 As  failed to rescan: Failed to parse /usr/share/applications/kali-rtpinsertsound.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0836 As  failed to rescan: Failed to parse /usr/share/applications/kali-rtpmixsound.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0837 As  failed to rescan: Failed to parse /usr/share/applications/kali-safecopy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0837 As  failed to rescan: Failed to parse /usr/share/applications/kali-samdump2.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0838 As  failed to rescan: Failed to parse /usr/share/applications/kali-sbd.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0838 As  failed to rescan: Failed to parse /usr/share/applications/kali-scalpel.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0838 As  failed to rescan: Failed to parse /usr/share/applications/kali-scrounge-ntfs.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0839 As  failed to rescan: Failed to parse /usr/share/applications/kali-sctpscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0839 As  failed to rescan: Failed to parse /usr/share/applications/kali-set.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0840 As  failed to rescan: Failed to parse /usr/share/applications/kali-sfuzz.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0840 As  failed to rescan: Failed to parse /usr/share/applications/kali-sidguesser.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0841 As  failed to rescan: Failed to parse /usr/share/applications/kali-siege.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0841 As  failed to rescan: Failed to parse /usr/share/applications/kali-siparmyknife.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0842 As  failed to rescan: Failed to parse /usr/share/applications/kali-sipcrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0842 As  failed to rescan: Failed to parse /usr/share/applications/kali-sipp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0843 As  failed to rescan: Failed to parse /usr/share/applications/kali-svcrash.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0843 As  failed to rescan: Failed to parse /usr/share/applications/kali-svwar.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0844 As  failed to rescan: Failed to parse /usr/share/applications/kali-svmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0844 As  failed to rescan: Failed to parse /usr/share/applications/kali-svcrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0845 As  failed to rescan: Failed to parse /usr/share/applications/kali-svreport.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0845 As  failed to rescan: Failed to parse /usr/share/applications/kali-skipfish.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0846 As  failed to rescan: Failed to parse /usr/share/applications/kali-mmls.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0846 As  failed to rescan: Failed to parse /usr/share/applications/kali-blkcalc.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0847 As  failed to rescan: Failed to parse /usr/share/applications/kali-img_stat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0847 As  failed to rescan: Failed to parse /usr/share/applications/kali-blkls.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0848 As  failed to rescan: Failed to parse /usr/share/applications/kali-mactime-sleuthkit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0848 As  failed to rescan: Failed to parse /usr/share/applications/kali-hfind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0849 As  failed to rescan: Failed to parse /usr/share/applications/kali-ffind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0849 As  failed to rescan: Failed to parse /usr/share/applications/kali-img_cat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0850 As  failed to rescan: Failed to parse /usr/share/applications/kali-tsk_loaddb.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0850 As  failed to rescan: Failed to parse /usr/share/applications/kali-mmstat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0851 As  failed to rescan: Failed to parse /usr/share/applications/kali-sorter.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0851 As  failed to rescan: Failed to parse /usr/share/applications/kali-tsk_gettimes.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0852 As  failed to rescan: Failed to parse /usr/share/applications/kali-tsk_comparedir.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0852 As  failed to rescan: Failed to parse /usr/share/applications/kali-jls.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0852 As  failed to rescan: Failed to parse /usr/share/applications/kali-ifind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0853 As  failed to rescan: Failed to parse /usr/share/applications/kali-srch_strings.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0853 As  failed to rescan: Failed to parse /usr/share/applications/kali-tsk_recover.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0854 As  failed to rescan: Failed to parse /usr/share/applications/kali-blkstat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0854 As  failed to rescan: Failed to parse /usr/share/applications/kali-fsstat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0855 As  failed to rescan: Failed to parse /usr/share/applications/kali-icat-sleuthkit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0855 As  failed to rescan: Failed to parse /usr/share/applications/kali-blkcat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0856 As  failed to rescan: Failed to parse /usr/share/applications/kali-ils-sleuthkit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0856 As  failed to rescan: Failed to parse /usr/share/applications/kali-jcat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0857 As  failed to rescan: Failed to parse /usr/share/applications/kali-mmcat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0857 As  failed to rescan: Failed to parse /usr/share/applications/kali-istat.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0858 As  failed to rescan: Failed to parse /usr/share/applications/kali-sigfind.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0858 As  failed to rescan: Failed to parse /usr/share/applications/kali-fls.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0859 As  failed to rescan: Failed to parse /usr/share/applications/kali-smbmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0859 As  failed to rescan: Failed to parse /usr/share/applications/kali-smtp-user-enum.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0860 As  failed to rescan: Failed to parse /usr/share/applications/kali-sniffjoke.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0860 As  failed to rescan: Failed to parse /usr/share/applications/kali-snmpcheck.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0861 As  failed to rescan: Failed to parse /usr/share/applications/kali-sparta.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0861 As  failed to rescan: Failed to parse /usr/share/applications/kali-spike-generic-send-udp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0861 As  failed to rescan: Failed to parse /usr/share/applications/kali-spike-generic-chunked.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0862 As  failed to rescan: Failed to parse /usr/share/applications/kali-spike-generic-send-tcp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0862 As  failed to rescan: Failed to parse /usr/share/applications/kali-spike-generic-listen-tcp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0863 As  failed to rescan: Failed to parse /usr/share/applications/kali-spooftooph.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0863 As  failed to rescan: Failed to parse /usr/share/applications/kali-sqldict.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0864 As  failed to rescan: Failed to parse /usr/share/applications/sqlitebrowser.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0864 As  failed to rescan: Failed to parse /usr/share/applications/kali-sqlmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0865 As  failed to rescan: Failed to parse /usr/share/applications/kali-sqlninja.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0865 As  failed to rescan: Failed to parse /usr/share/applications/kali-sqlsus.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0866 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslcaudit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0866 As  failed to rescan: Failed to parse /usr/share/applications/kali-ssldump.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0867 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslh.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0867 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0868 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslsniff.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0868 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslsplit.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0869 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslstrip.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0869 As  failed to rescan: Failed to parse /usr/share/applications/kali-sslyze.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0869 As  failed to rescan: Failed to parse /usr/share/applications/kali-stunnel.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0870 As  failed to rescan: Failed to parse /usr/share/applications/kali-sucrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0870 As  failed to rescan: Failed to parse /usr/share/applications/kali-swaks.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0871 As  failed to rescan: Failed to parse /usr/share/applications/kali-t50.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0871 As  failed to rescan: Failed to parse /usr/share/applications/kali-tcpflow.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0872 As  failed to rescan: Failed to parse /usr/share/applications/kali-tcpreplay.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0872 As  failed to rescan: Failed to parse /usr/share/applications/kali-termineter.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0873 As  failed to rescan: Failed to parse /usr/share/applications/kali-thcping6.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0873 As  failed to rescan: Failed to parse /usr/share/applications/kali-thc-pptp-bruter.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0874 As  failed to rescan: Failed to parse /usr/share/applications/kali-thc-ssl-dos.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0874 As  failed to rescan: Failed to parse /usr/share/applications/kali-theharvester.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0874 As  failed to rescan: Failed to parse /usr/share/applications/kali-tlssled.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0875 As  failed to rescan: Failed to parse /usr/share/applications/kali-tnscmd10g.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0875 As  failed to rescan: Failed to parse /usr/share/applications/kali-truecrack.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0876 As  failed to rescan: Failed to parse /usr/share/applications/kali-twofi.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0876 As  failed to rescan: Failed to parse /usr/share/applications/kali-u3-pwn.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0877 As  failed to rescan: Failed to parse /usr/share/applications/kali-ua-tester.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0877 As  failed to rescan: Failed to parse /usr/share/applications/kali-udptunnel.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0878 As  failed to rescan: Failed to parse /usr/share/applications/kali-unicornscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0878 As  failed to rescan: Failed to parse /usr/share/applications/kali-uniscan-gui.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0878 As  failed to rescan: Failed to parse /usr/share/applications/kali-unix-privesc-check.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0879 As  failed to rescan: Failed to parse /usr/share/applications/kali-urlcrazy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0879 As  failed to rescan: Failed to parse /usr/share/applications/kali-vinetto.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0880 As  failed to rescan: Failed to parse /usr/share/applications/kali-voiphopper.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0880 As  failed to rescan: Failed to parse /usr/share/applications/kali-volafox.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0881 As  failed to rescan: Failed to parse /usr/share/applications/kali-volatility.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0881 As  failed to rescan: Failed to parse /usr/share/applications/kali-wafw00f.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0882 As  failed to rescan: Failed to parse /usr/share/applications/kali-wapiti.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0882 As  failed to rescan: Failed to parse /usr/share/applications/kali-webacoo.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0882 As  failed to rescan: Failed to parse /usr/share/applications/kali-webscarab.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0883 As  failed to rescan: Failed to parse /usr/share/applications/kali-weevely.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0883 As  failed to rescan: Failed to parse /usr/share/applications/kali-wfuzz.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0884 As  failed to rescan: Failed to parse /usr/share/applications/kali-whatweb.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0884 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifi-honey.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0885 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifitap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0885 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifidns.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0885 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifiping.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0886 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifiarp.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0886 As  failed to rescan: Failed to parse /usr/share/applications/kali-wifite.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0887 As  failed to rescan: Failed to parse /usr/share/applications/kali-wireshark.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0887 As  failed to rescan: Failed to parse /usr/share/applications/kali-wol-e.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0888 As  failed to rescan: Failed to parse /usr/share/applications/kali-wordlists.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0888 As  failed to rescan: Failed to parse /usr/share/applications/kali-wpscan.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0888 As  failed to rescan: Failed to parse /usr/share/applications/kali-xprobe.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0889 As  failed to rescan: Failed to parse /usr/share/applications/kali-xsser.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0889 As  failed to rescan: Failed to parse /usr/share/applications/kali-yersinia.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0890 As  failed to rescan: Failed to parse /usr/share/applications/kali-zaproxy.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:12 ni8crawler gnome-software-service.desktop[1239]: 11:49:12:0890 As  failed to rescan: Failed to parse /usr/share/applications/kali-zenmap.desktop file: cannot process file of type application/x-desktop
+Dec 01 17:19:49 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:19:49 ni8crawler nginx[7539]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:19:49 ni8crawler nginx[7539]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:19:49 ni8crawler nginx[7539]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:19:49 ni8crawler nginx[7539]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:19:50 ni8crawler nginx[7539]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:19:50 ni8crawler nginx[7539]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:19:50 ni8crawler nginx[7539]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:19:50 ni8crawler nginx[7539]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:19:51 ni8crawler nginx[7539]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:19:51 ni8crawler nginx[7539]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:19:51 ni8crawler nginx[7539]: nginx: [emerg] still could not bind()
+Dec 01 17:19:51 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:19:51 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:19:51 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:19:51 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m
+Dec 01 17:21:19 ni8crawler plugin-containe[7572]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:21:58 ni8crawler sudo[7619]: [0;1;39m    root : TTY=pts/2 ; PWD=/root/placement_rit/webpage ; USER=root ; COMMAND=/bin/systemctl stop apache2.service[0m
+Dec 01 17:21:58 ni8crawler sudo[7619]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec 01 17:21:58 ni8crawler sudo[7619]: pam_unix(sudo:session): session closed for user root
+Dec 01 17:23:55 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (*default ()[0m
+Dec 01 17:25:01 ni8crawler CRON[7675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:25:01 ni8crawler CRON[7676]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 17:25:01 ni8crawler CRON[7675]: pam_unix(cron:session): session closed for user root
+Dec 01 17:25:14 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:25:14 ni8crawler nginx[7689]: nginx: [emerg] "root" directive is duplicate in /etc/nginx/sites-enabled/default:42
+Dec 01 17:25:14 ni8crawler nginx[7689]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 01 17:25:14 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:25:14 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:25:14 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:25:14 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m
+Dec 01 17:26:24 ni8crawler plugin-containe[7720]: [0;1;39mg_path_get_basename: assertion 'file_name != NULL' failed[0m
+Dec 01 17:26:38 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:26:38 ni8crawler nginx[7766]: nginx: [emerg] "root" directive is duplicate in /etc/nginx/sites-enabled/default:42
+Dec 01 17:26:38 ni8crawler nginx[7766]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 01 17:26:38 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:26:38 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:26:38 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:26:38 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m
+Dec 01 17:28:12 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:28:12 ni8crawler nginx[7802]: nginx: [emerg] "root" directive is duplicate in /etc/nginx/sites-enabled/default:42
+Dec 01 17:28:12 ni8crawler nginx[7802]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 01 17:28:12 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:28:12 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:28:12 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:28:12 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m
+Dec 01 17:28:17 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:28:17 ni8crawler nginx[7834]: nginx: [emerg] "root" directive is duplicate in /etc/nginx/sites-enabled/default:42
+Dec 01 17:28:17 ni8crawler nginx[7834]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 01 17:28:17 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:28:17 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:28:17 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:28:17 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m
+Dec 01 17:28:35 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (default (/)[0m
+Dec 01 17:28:45 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:28:45 ni8crawler systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 17:29:18 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (default (/)[0m
+Dec 01 17:29:29 ni8crawler systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun shutting down.
+Dec 01 17:29:29 ni8crawler systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished shutting down.
+Dec 01 17:29:29 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:29:29 ni8crawler systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 17:32:07 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (default (/)[0m
+Dec 01 17:32:15 ni8crawler smartd[518]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 153 to 150
+Dec 01 17:33:16 ni8crawler systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun shutting down.
+Dec 01 17:33:16 ni8crawler systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished shutting down.
+Dec 01 17:33:16 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:33:16 ni8crawler systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Dec 01 17:33:55 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (nginx.conf)[0m
+Dec 01 17:34:47 ni8crawler org.gnome.Shell.desktop[1099]: [0;1;39mWindow manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0xe000f8 (default (/)[0m
+Dec 01 17:35:02 ni8crawler CRON[8121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 01 17:35:02 ni8crawler CRON[8122]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 01 17:35:02 ni8crawler CRON[8121]: pam_unix(cron:session): session closed for user root
+Dec 01 17:35:37 ni8crawler systemd[1]: Stopping A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun shutting down.
+Dec 01 17:35:37 ni8crawler systemd[1]: Stopped A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished shutting down
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has finished shutting down.
+Dec 01 17:35:37 ni8crawler systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has begun starting up.
+Dec 01 17:35:37 ni8crawler nginx[8144]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:35:37 ni8crawler nginx[8144]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:35:37 ni8crawler nginx[8144]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:35:37 ni8crawler nginx[8144]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:35:38 ni8crawler nginx[8144]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:35:38 ni8crawler nginx[8144]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:35:38 ni8crawler nginx[8144]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:35:38 ni8crawler nginx[8144]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:35:39 ni8crawler nginx[8144]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Dec 01 17:35:39 ni8crawler nginx[8144]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Dec 01 17:35:39 ni8crawler nginx[8144]: nginx: [emerg] still could not bind()
+Dec 01 17:35:39 ni8crawler systemd[1]: [0;1;39mnginx.service: Control process exited, code=exited status=1[0m
+Dec 01 17:35:39 ni8crawler systemd[1]: [0;1;31mFailed to start A high performance web server and a reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Dec 01 17:35:39 ni8crawler systemd[1]: [0;1;39mnginx.service: Unit entered failed state.[0m
+Dec 01 17:35:39 ni8crawler systemd[1]: [0;1;39mnginx.service: Failed with result 'exit-code'.[0m

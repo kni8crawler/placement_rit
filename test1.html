@@ -1,0 +1,63 @@
+<head><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="jquery/jquery-1.8.3.min"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script></head>
+<table>
+    <tr>
+        <td width="40px">1</td>
+        <td>Number</td>
+        <td><input class="txt" type="text" name="txt" /></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Number</td>
+        <td><input class="txt" type="text" name="txt" /></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Number</td>
+        <td><input class="txt" type="text" name="txt" /></td>
+    </tr>
+    <tr id="summation">
+        <td  colspan ="2" align="right">
+            Sum :
+        </td>
+        <td>
+          <input type="text" id='sum1' name="input" />
+        </td>
+        </span>
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    //this calculates values automatically 
+    calculateSum();
+
+    $(".txt").on("keydown keyup", function() {
+        calculateSum();
+    });
+});
+
+function calculateSum() {
+    var sum = 0;
+    //iterate through each textboxes and add the values
+    $(".txt").each(function() {
+        //add only if the value is number
+        if (!isNaN(this.value) && this.value.length != 0) {
+            sum += parseFloat(this.value);
+            $(this).css("background-color", "#FEFFB0");
+        }
+        else if (this.value.length != 0){
+            $(this).css("background-color", "red");
+        }
+    });
+ 
+    $("input#sum1").val(sum.toFixed(2));
+}
+</script>
