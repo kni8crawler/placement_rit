@@ -1,0 +1,1 @@
+add columns sem1p to sem8p and overall1 with varcahar(6) datatype in be_data
